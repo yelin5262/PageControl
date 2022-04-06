@@ -13,6 +13,12 @@
 		B243DF2E27FDD32000E9910D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B243DF2C27FDD32000E9910D /* Main.storyboard */; };
 		B243DF3027FDD32100E9910D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B243DF2F27FDD32100E9910D /* Assets.xcassets */; };
 		B243DF3327FDD32100E9910D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B243DF3127FDD32100E9910D /* LaunchScreen.storyboard */; };
+		B243DF4127FDD4B900E9910D /* 05.png in Resources */ = {isa = PBXBuildFile; fileRef = B243DF3B27FDD4B800E9910D /* 05.png */; };
+		B243DF4227FDD4B900E9910D /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = B243DF3C27FDD4B800E9910D /* 01.png */; };
+		B243DF4327FDD4B900E9910D /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = B243DF3D27FDD4B800E9910D /* 03.png */; };
+		B243DF4427FDD4B900E9910D /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = B243DF3E27FDD4B800E9910D /* 02.png */; };
+		B243DF4527FDD4B900E9910D /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = B243DF3F27FDD4B800E9910D /* 04.png */; };
+		B243DF4627FDD4B900E9910D /* 06.png in Resources */ = {isa = PBXBuildFile; fileRef = B243DF4027FDD4B900E9910D /* 06.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		B243DF2F27FDD32100E9910D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B243DF3227FDD32100E9910D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B243DF3427FDD32100E9910D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B243DF3B27FDD4B800E9910D /* 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05.png; sourceTree = "<group>"; };
+		B243DF3C27FDD4B800E9910D /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		B243DF3D27FDD4B800E9910D /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
+		B243DF3E27FDD4B800E9910D /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		B243DF3F27FDD4B800E9910D /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04.png; sourceTree = "<group>"; };
+		B243DF4027FDD4B900E9910D /* 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 06.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 		B243DF2527FDD32000E9910D /* PageControl */ = {
 			isa = PBXGroup;
 			children = (
+				B243DF3A27FDD4A100E9910D /* images */,
 				B243DF2627FDD32000E9910D /* AppDelegate.swift */,
 				B243DF2827FDD32000E9910D /* SceneDelegate.swift */,
 				B243DF2A27FDD32000E9910D /* ViewController.swift */,
@@ -65,6 +78,19 @@
 				B243DF3427FDD32100E9910D /* Info.plist */,
 			);
 			path = PageControl;
+			sourceTree = "<group>";
+		};
+		B243DF3A27FDD4A100E9910D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B243DF3C27FDD4B800E9910D /* 01.png */,
+				B243DF3E27FDD4B800E9910D /* 02.png */,
+				B243DF3D27FDD4B800E9910D /* 03.png */,
+				B243DF3F27FDD4B800E9910D /* 04.png */,
+				B243DF3B27FDD4B800E9910D /* 05.png */,
+				B243DF4027FDD4B900E9910D /* 06.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +151,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B243DF4227FDD4B900E9910D /* 01.png in Resources */,
 				B243DF3327FDD32100E9910D /* LaunchScreen.storyboard in Resources */,
 				B243DF3027FDD32100E9910D /* Assets.xcassets in Resources */,
+				B243DF4427FDD4B900E9910D /* 02.png in Resources */,
+				B243DF4627FDD4B900E9910D /* 06.png in Resources */,
+				B243DF4127FDD4B900E9910D /* 05.png in Resources */,
+				B243DF4527FDD4B900E9910D /* 04.png in Resources */,
+				B243DF4327FDD4B900E9910D /* 03.png in Resources */,
 				B243DF2E27FDD32000E9910D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
